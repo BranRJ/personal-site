@@ -1,13 +1,12 @@
 .navbar {
-  position: fixed;  /* Makes the navbar stay at the top */
+  position: fixed;
   top: 0;
-  width: 100%;  /* Makes the navbar take the full width of the page */
-  display: flex;
+  width: 100%;  
   justify-content: center;
   gap: 20px;
   background-color: #121212;
   padding: 10px;
-  z-index: 1000;  /* Ensures the navbar stays above other content */
+  z-index: 1000;
 }
 
 .navbar a {
@@ -22,9 +21,9 @@
   background-color: #555;
 }
 
-/* Add padding to the top of the content to avoid overlapping with the sticky navbar */
+
 .content {
-  padding-top: 60px;  /* Adjust according to navbar height */
+  padding-top: 60px;
 }
 
 
