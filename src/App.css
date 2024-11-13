@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   gap: 20px;
-  background-color: #333;
+  background-color: #121212;
   padding: 10px;
   z-index: 1000;  /* Ensures the navbar stays above other content */
 }
