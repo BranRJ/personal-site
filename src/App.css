@@ -1,3 +1,38 @@
+.navbar {
+  position: fixed;  /* Makes the navbar stay at the top */
+  top: 0;
+  width: 100%;  /* Makes the navbar take the full width of the page */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #333;
+  padding: 10px;
+  z-index: 1000;  /* Ensures the navbar stays above other content */
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+/* Add padding to the top of the content to avoid overlapping with the sticky navbar */
+.content {
+  padding-top: 60px;  /* Adjust according to navbar height */
+}
+
+
+.contact-page {
+  text-align: center;
+  padding: 40px;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
