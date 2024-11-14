@@ -29,7 +29,6 @@ const Chatbot = () => {
         {
           headers: {
             'Content-Type': 'application/json',
-            Authorization: `Bearer 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`,
           }
         }
       );
